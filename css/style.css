@@ -1,0 +1,695 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Scheherazade+New:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap);
+
+:root {
+    font-size: 16px;
+    --Lato: 'Lato', sans-serif;
+    --Royale: 'Bonheur Royale', cursive
+}
+
+.body {
+    overflow-x: hidden
+}
+
+.fa-sort-up {
+    color: #fff;
+    background: #f52225;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px
+}
+
+.msg {
+    background: #f52225;
+    border: #f52225;
+    padding: 10px 25px;
+    transition: .6s
+}
+
+.msg:hover {
+    background: #fff;
+    color: #f52225
+}
+
+.error {
+    color: red
+}
+
+.js {
+    width: 70%;
+    height: 5px;
+    background: #f52225;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.wrapper {
+    font-family: var(--Lato)
+}
+
+.navbar-brand h1 {
+    font-family: var(--display)
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/Background/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 120px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 1.5em
+}
+
+.intro {
+    color: #fff;
+    margin-top: 100px
+}
+
+.intro h1 section {
+    color: #f52225
+}
+
+.line {
+    height: 2px;
+    width: 80px;
+    background: #f52225;
+    margin: 12px
+}
+
+.con h5 {
+    color: #f52225
+}
+
+.about {
+    background: #191c26;
+    padding: 100px 0;
+    color: #fff
+}
+
+.about p {
+    color: #a9afc3
+}
+
+.con p {
+    font-size: 1.1em
+}
+
+.con button {
+    margin-top: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1em;
+    padding: 10px 50px;
+    font-weight: 700;
+    transition: .6s
+}
+
+.con button:hover {
+    color: #f52225;
+    border: 2px solid #f52225
+}
+
+.con h3 span {
+    color: #f52225
+}
+
+.con h5 span {
+    color: #fff
+}
+
+.name h6 {
+    margin-top: 20px
+}
+
+.name h6 span {
+    color: #a9afc3
+}
+
+.me h5 {
+    color: #f52225;
+    font-weight: 700
+}
+
+.me1 {
+    margin: 0
+}
+
+.my button {
+    margin-top: 50px;
+    border: 2px solid #f52225;
+    background: #f52225;
+    font-size: 1em;
+    padding: 10px 40px;
+    font-weight: 700
+}
+
+.education small {
+    color: #a9afc3
+}
+
+.education h5 {
+    color: #fff
+}
+
+.edu {
+    background: #111319;
+    padding: 50px 0
+}
+
+.edu h3,
+h5 {
+    width: 80%;
+    margin: 0 auto
+}
+
+.edu h5 {
+    font-size: 1em
+}
+
+.edu h3 {
+    font-size: 1.3em
+}
+
+.edu .tion {
+    color: #f52225
+}
+
+.edu h5 {
+    color: #a9afc3
+}
+
+.web {
+    width: 80%;
+    margin: 0 auto
+}
+
+.grey {
+    width: 80%;
+    margin: 0 auto;
+    height: 5px;
+    background: #a9afc3;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.red {
+    width: 85%;
+    height: 5px;
+    background: #f52225;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.xd {
+    width: 80%;
+    height: 5px;
+    background: #f52225;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.html {
+    width: 90%
+}
+
+.jq {
+    width: 80%
+}
+
+.illus {
+    width: 75%;
+    height: 5px;
+    background: #f52225;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.photo {
+    width: 75%;
+    height: 5px;
+    background: #f52225;
+    margin-top: 5px;
+    border-radius: 10px
+}
+
+.navbar-brand h1 span:nth-child(1) {
+    color: #111;
+    animation-delay: 0s
+}
+
+.navbar-brand h1 span:nth-child(2) {
+    color: #111;
+    animation-delay: .25s
+}
+
+.navbar-brand h1 span:nth-child(3) {
+    color: #111;
+    animation-delay: .5s
+}
+
+.navbar-brand h1 span:nth-child(4) {
+    color: #111;
+    animation-delay: .75s
+}
+
+.navbar-brand h1 span:nth-child(5) {
+    color: #111;
+    animation-delay: 1s
+}
+
+.navbar-brand h1 span:nth-child(6) {
+    color: #111;
+    animation-delay: 1.25s
+}
+
+.navbar-brand h1 span {
+    display: table-cell;
+    animation: animate 2s linear infinite
+}
+
+.services {
+    background-color: #111319;
+    color: #fff;
+    padding: 100px 0
+}
+
+.comp {
+    padding: 50px;
+    background: #191c26;
+    text-align: center;
+    transition: .5s
+}
+
+.comp:hover {
+    box-shadow: 0 0 50px #f52225
+}
+
+.comp i {
+    font-size: 3em
+}
+
+.comp a {
+    text-decoration: none;
+    color: #fff
+}
+
+.comp .fa-arrow-right {
+    font-size: 1em;
+    margin-left: 20px
+}
+
+.color {
+    transition: .5s
+}
+
+.color:hover {
+    color: #f52225
+}
+
+.comp:hover a {
+    color: #f52225
+}
+
+.fa-laptop-code {
+    color: #2d2dff
+}
+
+.portfolio {
+    background: #191c26;
+    padding: 100px 0;
+    color: #fff
+}
+
+.port {
+    margin-top: 25px
+}
+
+.Weeding {
+    background: url(../images/Background/Weeding.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.garage {
+    background: url(../images/Background/Garage.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.cafe {
+    background: url(../images/Background/Cafe.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.gym {
+    background: url(../images/Background/Gym.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.bank {
+    background: url(../images/Background/Bank.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.doctor {
+    background: url(../images/Background/Doctor.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.salon {
+    background: url(../images/Background/Salon.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.bakery {
+    background: url(../images/Background/Bakery.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.fashion {
+    background: url(../images/Background/Fashion.PNG) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.me .row .port {
+    overflow: hidden;
+    position: relative
+}
+
+.port img {
+    transition: .5s
+}
+
+.port:hover img {
+    transition: .5s;
+    transform: scale(110%)
+}
+
+.content {
+    text-align: center;
+    position: absolute;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, .8);
+    padding: 100px 0;
+    left: -100%;
+    transition: all .6s
+}
+
+.port:hover .content {
+    left: 0
+}
+
+.content h1 {
+    font-family: var(--Royale)
+}
+
+.content button a {
+    text-decoration: none;
+    color: #fff;
+    background: #f52225;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 1s
+}
+
+.content button a:hover {
+    color: #f52225;
+    background: #fff
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    text-align: center
+}
+
+.box-contain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.box .contain {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    transform: rotate(90deg);
+    opacity: 0;
+    transition: all .6s
+}
+
+.box:hover .contain {
+    transform: rotate(0);
+    opacity: 1
+}
+
+.box .social {
+    padding: 0;
+    margin: 0 0 20px 0
+}
+
+.box .social a {
+    padding: 15px;
+    margin: 5px;
+    color: #fff;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+    transition: .6s
+}
+
+.box .social a:hover {
+    color: #f52225
+}
+
+.box .box-contain::after,
+.box .box-contain::before {
+    content: "";
+    width: 90%;
+    height: 48%;
+    background: #f52225;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all .6s;
+    opacity: 0
+}
+
+.box .box-contain::before {
+    top: -20%
+}
+
+.box .box-contain::after {
+    bottom: -20%
+}
+
+.box:hover .box-contain::before {
+    top: 2%;
+    opacity: .8
+}
+
+.box:hover .box-contain::after {
+    bottom: 2%;
+    opacity: .8
+}
+
+.box h6 {
+    font-size: 1.3em
+}
+
+.contact-us {
+    background: #111319;
+    padding: 100px 0
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #191c26;
+    text-align: center;
+    color: #fff
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #f52225, 0 0 20px #f52225, 0 0 40px #f52225, 0 0 80px #f52225, 0 0 120px #f52225
+    }
+
+    5%,
+    95% {
+        color: #000;
+        filter: blur(0);
+        text-shadow: 0 0 10px #f52225
+    }
+}
+
+@media (min-width:320px) {
+    .wrapper {
+        overflow-x: hidden;
+    }
+
+    .content {
+        padding: 5% 0;
+    }
+
+    .intro p {
+        font-size: .9em
+    }
+
+    .intro button {
+        margin-top: 20px;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: .9em;
+        padding: 10px 30px;
+        font-weight: 700;
+        transition: .6s
+    }
+
+    .intro button:hover {
+        color: #f52225;
+        border: 2px solid #f52225
+    }
+
+    .intro h1 {
+        font-size: 2em;
+        font-weight: 700
+    }
+
+    .intro h2 {
+        font-size: 1.2em
+    }
+
+    .me h1 {
+        font-size: 3em;
+        font-weight: 700
+    }
+
+    .navbar-brand h1 {
+        font-size: 3em;
+        font-family: var(--Royale)
+    }
+}
+
+@media (min-width:576px) {
+    .content {
+        padding: 10% 0;
+    }
+
+    .intro p {
+        font-size: 1.1em
+    }
+
+    .intro h1 {
+        font-size: 3.5em;
+        font-weight: 700
+    }
+
+    .intro h2 {
+        font-size: 2em
+    }
+
+    .intro button {
+        margin-top: 20px;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 1em;
+        padding: 10px 50px;
+        font-weight: 700;
+        transition: .6s
+    }
+}
+
+@media (min-width:768px) {
+    .content {
+        padding: 15% 0;
+    }
+
+    .intro p {
+        width: 85%
+    }
+
+    .intro h1 {
+        font-size: 4.5em;
+        font-weight: 700
+    }
+}
+
+@media (min-width:994px) {
+    .content {
+        padding: 10% 0;
+    }
+
+    .intro p {
+        width: 60%
+    }
+
+    .intro h1 {
+        font-size: 4.5em;
+        font-weight: 700
+    }
+}
+
+@media (min-width:1200px) {
+    .content {
+        padding: 15% 0;
+    }
+
+    .intro p {
+        width: 60%
+    }
+
+    .intro h1 {
+        font-size: 6em;
+        font-weight: 700
+    }
+
+    .intro button {
+        font-size: 1.2em
+    }
+
+    .intro h2 {
+        font-size: 2.5em
+    }
+
+    .me h1 {
+        font-size: 4em;
+        font-weight: 700
+    }
+
+    .my h1 {
+        font-size: 3em
+    }
+
+    .navbar-brand h1 {
+        font-size: 4em
+    }
+}
