@@ -1,0 +1,1429 @@
+@import url(https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
+
+:root {
+    font-size: 16px;
+    --overpass: 'Overpass', sans-serif;
+    --Berkshire: 'Berkshire Swash', cursive
+}
+
+.left a:hover {
+    color: #c7470a
+}
+
+.middle a {
+    color: #fff;
+    text-decoration: none
+}
+
+.middle a:hover {
+    color: #c7470a
+}
+
+.contain button {
+    background: #c7470a;
+    color: #fff;
+    font-weight: bolder;
+    font-family: var(--overpass);
+    border-radius: 50px;
+    padding: 10px 40px;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: ease-in-out .5s
+}
+
+.contain button:hover {
+    box-shadow: inset 0 0 150px 0 #fff;
+    color: #c7470a
+}
+
+.double {
+    background: #121418;
+    padding: 50px
+}
+
+.bread {
+    text-align: center;
+    color: #fff
+}
+
+figcaption h4 {
+    font-family: var(--Berkshire);
+    color: #23aa6c
+}
+
+figcaption h2:hover {
+    color: #23aa6c
+}
+
+.dots {
+    position: absolute
+}
+
+.pretty {
+    background: #050608;
+    padding-top: 150px;
+    padding-bottom: 300px
+}
+
+.eat-1 {
+    position: absolute;
+    margin-top: -63px;
+    margin-left: -62px
+}
+
+.eat-2 {
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 216px
+}
+
+.eat-7 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 380px
+}
+
+.eat-3 {
+    position: relative
+}
+
+.eat-8 {
+    z-index: 2;
+    position: relative
+}
+
+.pan h2,
+p {
+    z-index: 2;
+    position: relative
+}
+
+.eat-4 {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 430px;
+    z-index: 1
+}
+
+.eat-5 {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -668px
+}
+
+.eat-6 {
+    position: absolute
+}
+
+.pan h2 {
+    color: #fff;
+    font-size: 3em;
+    font-family: var(--Berkshire)
+}
+
+.pan p {
+    color: #fff;
+    font-size: 1.1em;
+    font-family: var(--overpass)
+}
+
+.online {
+    text-align: center
+}
+
+.bun {
+    position: relative;
+    overflow: hidden
+}
+
+.bun img {
+    transition: .6s
+}
+
+.bun:hover img {
+    transform: scale(110%)
+}
+
+.green-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 53.5%;
+    background: #23aa6c;
+    opacity: 0;
+    transition: .6s
+}
+
+.bun:hover .green-color {
+    opacity: .4;
+    height: 56.2%
+}
+
+.square {
+    background: url(https://gico.io/cyyo/03_Bread_bakery/images/background/pattern-6.png) no-repeat;
+    background-size: cover;
+    background-color: #121418;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0 70px;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.online small {
+    color: #c7470a;
+    font-size: 1.1em;
+    letter-spacing: 1px
+}
+
+.online h1 {
+    font-family: var(--Berkshire);
+    font-size: 3em
+}
+
+.online p {
+    font-size: 1.3em
+}
+
+.bread-1 {
+    position: absolute;
+    margin-left: 47px;
+    margin-top: 29px
+}
+
+.bread-2 {
+    position: absolute;
+    margin-left: -10px
+}
+
+.lower {
+    text-align: center
+}
+
+.lower h5 {
+    color: #23aa6c
+}
+
+.lower h4 {
+    color: #fff;
+    transition: .5s;
+    font-family: var(--Berkshire)
+}
+
+.lower h4:hover {
+    color: #c7470a
+}
+
+.inner-box {
+    position: relative;
+    margin-bottom: 200px;
+    width: 254px;
+    height: 254px;
+    background: #0a0a0a;
+    border-radius: 500px;
+    transition: .6s
+}
+
+.inner-box:hover {
+    background: #c7470a
+}
+
+.lower {
+    position: relative;
+    margin-top: 280px
+}
+
+.inner-box button {
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: 0 0;
+    font-size: 1em;
+    box-shadow: inset 0 0 0 0 #23aa6c;
+    transition: .6s;
+    position: relative;
+    top: 0
+}
+
+.inner-box button:hover {
+    box-shadow: 0 0 25px #23aa6c 0 0 75px #23aa6c 0 0 125px #23aa6c;
+    box-shadow: inset 0 0 300px 0 #23aa6c;
+    color: #fff;
+    background: #23aa6c;
+    border: 2px solid #23aa6c;
+    position: relative;
+    top: -15px
+}
+
+.gift {
+    background: #080809;
+    padding: 150px 0
+}
+
+.pv-1,
+.pv-2 {
+    position: absolute;
+    margin-top: -40px
+}
+
+.pv-3 {
+    position: relative;
+    margin-left: -80px
+}
+
+.para h1 {
+    font-size: 3em;
+    font-family: var(--Berkshire);
+    color: #fff
+}
+
+.para p {
+    font-size: 1.5em;
+    color: #fff
+}
+
+.para button {
+    color: #fff;
+    padding: 10px 30px;
+    background: 0 0;
+    border: 2px solid #fff;
+    transition: .6s;
+    margin-top: 0
+}
+
+.para button:hover {
+    color: #fff;
+    padding: 10px 30px;
+    background: #c7470a;
+    border-radius: 50px;
+    border: 2px solid #c7470a;
+    margin-top: -20px
+}
+
+.recent {
+    background: #080809;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff
+}
+
+.article {
+    text-align: center
+}
+
+.article h1 {
+    font-family: var(--Berkshire);
+    font-size: 3em
+}
+
+.article p {
+    font-size: 1.3em
+}
+
+.bun h5 {
+    color: #5caf49
+}
+
+.bun h4 {
+    font-family: var(--Berkshire)
+}
+
+.bun p {
+    opacity: .6
+}
+
+.bun a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: .5s
+}
+
+.bun .grey {
+    width: 25%;
+    height: 5px;
+    background: gray;
+    border-radius: 30px
+}
+
+.bun .orange {
+    width: 50%;
+    height: 5px;
+    background: #c7470a;
+    border-radius: 30px;
+    transition: .5s
+}
+
+.bun .orange:hover {
+    width: 100%;
+    height: 5px;
+    background: #c7470a;
+    border-radius: 30px
+}
+
+.bun a:hover {
+    color: #5caf49
+}
+
+.bottom a {
+    opacity: 1;
+    transition: .3s
+}
+
+.bottom a:hover {
+    opacity: .6
+}
+
+.log a {
+    color: #fff;
+    transition: .6s;
+    font-size: 1em
+}
+
+.log a:hover {
+    color: #5caf49
+}
+
+.app a {
+    text-decoration: none;
+    color: #fff;
+    transition: .6s;
+    font-size: 1.2em
+}
+
+.app a:hover {
+    color: #5caf49
+}
+
+.app small {
+    font-size: 1em
+}
+
+.call {
+    color: #c7470a
+}
+
+.end p {
+    color: #c7470a
+}
+
+.end a {
+    text-decoration: none;
+    color: #5caf49
+}
+
+@media (min-width:320px) {
+    .cyyo {
+        padding-top: 1px;
+        background: #000;
+        font-family: var(--overpass)
+    }
+
+    .fig img {
+        display: none
+    }
+
+    .cyyo .row {
+        margin-bottom: 80px
+    }
+
+    .article p {
+        font-size: 1em
+    }
+
+    .app {
+        margin-top: 50px
+    }
+
+    .cyyo {
+        padding-bottom: 50px;
+        background: #000;
+        font-family: var(--overpass)
+    }
+
+    .article h1 {
+        font-size: 2em
+    }
+
+    nav {
+        position: relative;
+        top: -80px;
+        left: 25px
+    }
+
+    nav img {
+        position: relative;
+        right: 70px
+    }
+
+    hr {
+        display: none
+    }
+
+    .cart {
+        display: none
+    }
+
+    nav img {
+        position: relative
+    }
+
+    .right a {
+        color: #c7470a;
+        font-size: 2em;
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 10px;
+        position: relative;
+        top: 10px;
+        left: 50px
+    }
+
+    .middle {
+        text-align: left;
+        position: relative;
+        left: 30px
+    }
+
+    .left a {
+        color: #fff;
+        position: relative;
+        top: 18px
+    }
+
+    .middle h4 {
+        font-size: 1.3em
+    }
+
+    .contain {
+        text-align: left;
+        font-family: var(--Berkshire);
+        position: relative;
+        top: -50px
+    }
+
+    .contain h1 {
+        font-size: 1.8em
+    }
+
+    .img-1 {
+        height: 25vh
+    }
+
+    .contain button {
+        font-size: .7em;
+        padding: 5px 20px;
+        border-radius: 10px;
+        border-radius: 100px
+    }
+
+    figcaption h2 {
+        font-family: var(--Berkshire);
+        font-size: 1.8em
+    }
+
+    .double p {
+        font-size: 1em
+    }
+
+    figcaption button {
+        color: #fff;
+        padding: 15px 50px;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        background: 0 0;
+        font-size: 1em;
+        box-shadow: inset 0 0 0 0 #23aa6c;
+        transition: .6s;
+        position: relative;
+        top: 0
+    }
+
+    figcaption button:hover {
+        box-shadow: 0 0 25px #23aa6c 0 0 75px #23aa6c 0 0 125px #23aa6c;
+        box-shadow: inset 0 0 300px 0 #23aa6c;
+        color: #fff;
+        background: #23aa6c;
+        border: 2px solid #23aa6c;
+        position: relative;
+        top: -15px
+    }
+
+    .eat-4,
+    .eat-5,
+    .eat-7 {
+        display: none
+    }
+
+    .eat-1 {
+        position: absolute;
+        margin-top: -63px;
+        margin-left: -62px;
+        width: 90%
+    }
+
+    .eat-3 {
+        position: relative;
+        width: 100%;
+        border-radius: 20px
+    }
+
+    .eat-2 {
+        position: absolute;
+        margin-top: 252px;
+        margin-left: 127px;
+        width: 56%
+    }
+
+    .eat-8 {
+        z-index: 2;
+        position: relative;
+        width: 100%;
+        margin-top: 80px
+    }
+
+    .pv-3 {
+        position: relative;
+        margin-left: 0;
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 80%
+    }
+
+    .para h1 {
+        font-size: 1.5em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        margin-top: 80px
+    }
+
+    .para p {
+        font-size: 1em
+    }
+
+    .images {
+        display: none
+    }
+
+    .pav {
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 60%
+    }
+
+    .big {
+        text-align: center;
+        background: #080809;
+        padding-top: 0;
+        padding-bottom: 100px
+    }
+
+    .bb {
+        width: 90%
+    }
+
+    .big h1 {
+        font-size: 1.8em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        position: relative;
+        z-index: 2
+    }
+
+    .big h1:hover {
+        color: #23aa6c
+    }
+
+    .pic figure img {
+        width: 90%;
+        margin-left: 17px;
+        margin-top: 30px
+    }
+
+    .pic-1 h3 {
+        width: 100%;
+        color: #fff
+    }
+
+    .pic-1 {
+        font-family: var(--overpass);
+        margin-left: 50px;
+        padding-top: 50px
+    }
+
+    .pic-1 h5 {
+        color: #5caf49
+    }
+
+    .pic-1 h6 {
+        color: #fff
+    }
+
+    .black {
+        background: #000;
+        height: 65vh
+    }
+
+    .pic {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://gico.io/cyyo/03_Bread_bakery/images/background/1.jpg) no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 65vh
+    }
+
+    .end {
+        text-align: center
+    }
+}
+
+@media (min-width:576px) {
+    nav {
+        position: relative;
+        top: -90px;
+        left: 45px
+    }
+
+    nav img {
+        position: relative;
+        right: 120px
+    }
+
+    hr {
+        width: 500px;
+        display: block;
+        position: relative;
+        top: -120px;
+        right: 50px
+    }
+
+    .cart {
+        display: none
+    }
+
+    .contain {
+        position: relative;
+        top: 0
+    }
+
+    .contain h1 {
+        font-size: 3.2em
+    }
+
+    .img-1 {
+        height: 35vh
+    }
+
+    .contain button {
+        font-size: .9em;
+        padding: 5px 20px
+    }
+
+    .contain {
+        position: relative;
+        top: -80px
+    }
+
+    figcaption h2 {
+        font-family: var(--Berkshire);
+        font-size: 2.2em
+    }
+
+    .double p {
+        font-size: 1.2em
+    }
+
+    .eat-2 {
+        position: absolute;
+        margin-top: 404px;
+        margin-left: 222px;
+        width: 56%
+    }
+
+    .pv-3 {
+        position: relative;
+        margin-left: 0;
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 65%
+    }
+
+    .para h1 {
+        font-size: 2.5em
+    }
+
+    .para p {
+        font-size: 1.5em
+    }
+
+    .pav {
+        width: 50%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 35%
+    }
+
+    .big h1 {
+        font-size: 2em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        position: relative;
+        z-index: 2
+    }
+
+    .big h1:hover {
+        color: #23aa6c
+    }
+
+    .pav {
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 60%
+    }
+
+    .big {
+        text-align: center;
+        background: #080809;
+        padding-top: 0;
+        padding-bottom: 50px
+    }
+
+    .bb {
+        width: 90%
+    }
+
+    .black {
+        background: #000;
+        height: 80vh
+    }
+
+    .pic {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://gico.io/cyyo/03_Bread_bakery/images/background/1.jpg) no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh
+    }
+
+    .pic figure img {
+        width: 90%;
+        margin-left: 27px;
+        margin-top: 30px
+    }
+}
+
+@media (min-width:768px) {
+    .article h1 {
+        font-size: 3em
+    }
+
+    nav {
+        position: relative;
+        top: -170px;
+        left: 45px
+    }
+
+    hr {
+        width: 640px;
+        display: block;
+        position: relative;
+        top: -190px
+    }
+
+    .cart {
+        display: none
+    }
+
+    .contain {
+        position: relative;
+        top: -50px
+    }
+
+    .contain h1 {
+        font-size: 4.3em
+    }
+
+    .img-1 {
+        height: 46vh
+    }
+
+    .contain {
+        position: relative;
+        top: -120px
+    }
+
+    .contain button {
+        font-size: 1em;
+        padding: 10px 30px
+    }
+
+    figcaption h2 {
+        font-family: var(--Berkshire);
+        font-size: 2.3em
+    }
+
+    .double p {
+        font-size: 1.2em
+    }
+
+    .eat-2 {
+        position: absolute;
+        margin-top: 544px;
+        margin-left: 300px;
+        width: 56%
+    }
+
+    .pav {
+        width: 50%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 35%
+    }
+
+    .big h1 {
+        font-size: 3em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        position: relative;
+        z-index: 2
+    }
+
+    .big h1:hover {
+        color: #23aa6c
+    }
+
+    .pav {
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 60%
+    }
+
+    .big {
+        text-align: center;
+        background: #080809;
+        padding-top: 0;
+        padding-bottom: 100px
+    }
+
+    .bb {
+        width: 90%
+    }
+
+    .pic figure img {
+        width: 75%;
+        margin-top: 43px;
+        margin-left: 90px
+    }
+
+    .pic-1 h3 {
+        width: 100%;
+        color: #fff
+    }
+
+    .pic-1 {
+        margin-left: 50px;
+        padding-top: 50px
+    }
+
+    .pic-1 h5 {
+        color: #5caf49
+    }
+
+    .pic-1 h6 {
+        color: #fff
+    }
+
+    .black {
+        background: #000;
+        height: 85vh
+    }
+
+    .pic {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://gico.io/cyyo/03_Bread_bakery/images/background/1.jpg) no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 85vh
+    }
+
+    .end {
+        display: flex;
+        justify-content: space-between
+    }
+}
+
+@media (min-width:992px) {
+    .week {
+        margin-top: 150px
+    }
+
+    nav {
+        position: relative;
+        top: -130px
+    }
+
+    nav img {
+        position: relative;
+        right: 160px
+    }
+
+    hr {
+        width: 880px;
+        display: block;
+        position: relative;
+        top: -160px;
+        right: 90px
+    }
+
+    .cart {
+        display: none
+    }
+
+    .contain {
+        position: relative;
+        top: -100px
+    }
+
+    .contain h1 {
+        font-size: 5.5em
+    }
+
+    .img-1 {
+        height: 46vh
+    }
+
+    figcaption h2 {
+        font-family: var(--Berkshire);
+        font-size: 2.1em
+    }
+
+    .double p {
+        font-size: 1.1em
+    }
+
+    .pretty .container {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .eat {
+        width: 48%;
+        margin-top: 250px
+    }
+
+    .pan {
+        width: 48%
+    }
+
+    .eat-1 {
+        width: 30%
+    }
+
+    .eat-3 {
+        width: 80%
+    }
+
+    .eat-2 {
+        position: absolute;
+        margin-top: 344px;
+        margin-left: 230px;
+        width: 20%
+    }
+
+    .eat-8 {
+        margin-top: 0
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 40%
+    }
+
+    .pav {
+        width: 70%;
+        margin-left: 200PX
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 45%;
+        margin-left: 50px
+    }
+
+    .big h1 {
+        font-size: 4em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        position: relative;
+        z-index: 2
+    }
+
+    .big h1:hover {
+        color: #23aa6c
+    }
+
+    .big {
+        text-align: center;
+        background: #080809;
+        padding-top: 0;
+        padding-bottom: 100px
+    }
+
+    .big img {
+        position: absolute
+    }
+
+    .big .bb {
+        position: relative
+    }
+
+    .img1 {
+        margin-left: 300px;
+        margin-top: -150px
+    }
+
+    .img2 {
+        margin-left: 870px;
+        margin-top: 265px;
+        z-index: 1
+    }
+
+    .img4 {
+        margin-left: -77px
+    }
+
+    .big .bb {
+        position: relative;
+        z-index: 2
+    }
+
+    .img2 {
+        margin-left: 693px;
+        margin-top: 265px;
+        z-index: 1
+    }
+
+    .images {
+        display: block
+    }
+
+    .para h1 {
+        margin-top: 100px
+    }
+
+    .pic {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .pic figure img {
+        width: 180%;
+        margin-top: 53px;
+        margin-left: 50px
+    }
+
+    .pic-1 h3 {
+        width: 100;
+        color: #fff
+    }
+
+    .pic-1 {
+        margin-left: 50px;
+        margin-top: 50px
+    }
+
+    .pic-1 h5 {
+        color: #5caf49
+    }
+
+    .pic-1 h6 {
+        color: #fff
+    }
+
+    .black {
+        background: #000;
+        height: 40vh
+    }
+
+    .pic {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://gico.io/cyyo/03_Bread_bakery/images/background/1.jpg) no-repeat;
+        background-size: cover;
+        width: 70vw;
+        height: 40vh
+    }
+}
+
+@media (min-width:1400px) {
+    nav {
+        position: relative;
+        top: -200px
+    }
+
+    nav a img {
+        position: relative;
+        right: 250px
+    }
+
+    hr {
+        width: 1400px;
+        position: relative;
+        top: -215px;
+        right: 170px
+    }
+
+    .cart {
+        display: flex;
+        position: relative;
+        left: 50px;
+        top: 5px
+    }
+
+    nav img {
+        position: relative;
+        right: 200px
+    }
+
+    .right a {
+        color: #c7470a;
+        font-size: 2em;
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 100px;
+        position: relative;
+        top: 10px;
+        left: 50px
+    }
+
+    .middle {
+        text-align: left;
+        position: relative;
+        left: 30px
+    }
+
+    .left a {
+        color: #fff;
+        position: relative;
+        top: 18px
+    }
+
+    .middle h4 {
+        font-size: 1.3em
+    }
+
+    .contain {
+        text-align: left;
+        font-family: var(--Berkshire);
+        position: relative;
+        top: -150px
+    }
+
+    .contain h1 {
+        font-size: 7em
+    }
+
+    .img-1 {
+        height: 100vh
+    }
+
+    figcaption h2 {
+        font-family: var(--Berkshire);
+        font-size: 2.2em
+    }
+
+    .double p {
+        font-size: 1.2em
+    }
+
+    .eat-4,
+    .eat-5,
+    .eat-7 {
+        display: block
+    }
+
+    .eat-1 {
+        width: 24%
+    }
+
+    .eat-2 {
+        position: absolute;
+        margin-top: 294px;
+        margin-left: 196px;
+        width: 18%
+    }
+
+    .eat {
+        width: 38%;
+        margin-top: 150px
+    }
+
+    .inner-box {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+
+    .gift .container {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .pv-3 {
+        width: 100%
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 25%
+    }
+
+    .para {
+        width: 50%;
+        margin-left: 50px
+    }
+
+    .pav {
+        width: 50%;
+        margin-left: 0
+    }
+
+    .pv-1,
+    .pv-2 {
+        width: 32%;
+        margin-left: 50px
+    }
+
+    .big h1 {
+        font-size: 5em;
+        font-family: var(--Berkshire);
+        color: #fff;
+        position: relative;
+        z-index: 2
+    }
+
+    .big h1:hover {
+        color: #23aa6c
+    }
+
+    .pav {
+        text-align: center
+    }
+
+    .big {
+        text-align: center;
+        background: #080809;
+        padding: 100px 0
+    }
+
+    .big img {
+        position: absolute
+    }
+
+    .big .bb {
+        position: relative;
+        width: 60%
+    }
+
+    .img1 {
+        margin-left: 800px;
+        margin-top: -50px
+    }
+
+    .img2 {
+        margin-left: 1210px;
+        margin-top: 265px;
+        z-index: 1
+    }
+
+    .img4 {
+        margin-left: 10px
+    }
+
+    .pic {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .pic figure img {
+        width: 180%;
+        margin-top: 43px;
+        margin-left: 50px
+    }
+
+    .pic-1 h3 {
+        width: 100;
+        color: #fff
+    }
+
+    .pic-1 {
+        margin-left: 50px;
+        margin-top: 150px
+    }
+
+    .pic-1 h5 {
+        color: #5caf49
+    }
+
+    .pic-1 h6 {
+        color: #fff
+    }
+
+    .black {
+        background: #000;
+        height: 90vh
+    }
+
+    .pic {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://gico.io/cyyo/03_Bread_bakery/images/background/1.jpg) no-repeat;
+        background-size: cover;
+        width: 70vw;
+        height: 90vh
+    }
+
+    .cyyo {
+        padding-top: 70px;
+        background: #000;
+        font-family: var(--overpass)
+    }
+
+    .fig img {
+        position: absolute
+    }
+
+    .fig1 {
+        margin-top: 25px;
+        left: -55px
+    }
+
+    .fig2 {
+        right: 50px;
+        margin-top: 300px
+    }
+
+    .fig3 {
+        margin-top: 350px
+    }
+
+    .fig4 {
+        right: 50px
+    }
+
+    .fig img {
+        display: block
+    }
+}
