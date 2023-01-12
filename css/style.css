@@ -427,7 +427,14 @@ h5 {
     border-radius: 5px;
     transition: 1s
 }
-
+.mob-btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #f52225;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 1s;
+  }
 .content button a:hover {
     color: #f52225;
     background: #fff
