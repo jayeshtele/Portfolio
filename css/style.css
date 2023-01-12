@@ -596,7 +596,7 @@ footer {
     }
 
     .me h1 {
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 700
     }
 
@@ -632,6 +632,10 @@ footer {
         padding: 10px 50px;
         font-weight: 700;
         transition: .6s
+    }
+    .me h1 {
+        font-size: 3em;
+        font-weight: 700
     }
 }
 
