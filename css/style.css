@@ -87,7 +87,7 @@
 }
 
 .about {
-    background: #191c26;
+    background: linear-gradient(270deg,#141518 50%,#111215 50%);
     padding: 100px 0;
     color: #fff
 }
@@ -274,7 +274,7 @@ h5 {
 }
 
 .services {
-    background-color: #111319;
+    background: linear-gradient(90deg,#141518 50%,#111215 50%);
     color: #fff;
     padding: 100px 0
 }
@@ -321,7 +321,7 @@ h5 {
 }
 
 .portfolio {
-    background: #191c26;
+    background: linear-gradient(270deg,#141518 50%,#111215 50%);
     padding: 100px 0;
     color: #fff
 }
@@ -523,13 +523,13 @@ h5 {
 }
 
 .contact-us {
-    background: #111319;
+    background: linear-gradient(90deg,#141518 50%,#111215 50%);
     padding: 100px 0
 }
 
 footer {
     padding: 30px 0;
-    background-color: #191c26;
+    background: linear-gradient(270deg,#141518 50%,#111215 50%);
     text-align: center;
     color: #fff
 }
