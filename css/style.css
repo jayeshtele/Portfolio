@@ -279,6 +279,12 @@ h5 {
     padding: 100px 0
 }
 
+.certificates {
+    background: linear-gradient(90deg,#141518 50%,#111215 50%);
+    color: #fff;
+    padding: 100px 0
+}
+
 .comp {
     padding: 50px;
     background: #191c26;
